@@ -7,6 +7,7 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
+	public AudioManager audioManager;
 
 	[SerializeField]
 	private TMP_Text storyText;
@@ -41,9 +42,15 @@ public class GameManager : MonoBehaviour
 		var nextStates = currentState.GetNextStates();
 		currentState = nextStates[index];
 		UpdateScreen();
+		PlayAudio(audioManager.choiceClick);
 	}
 
 	private void UpdateScreen() {
 		storyText.text = currentState.GetStateStory();
+	}
+
+	public void PlayAudio(AudioClip clip) {
+		//audioManager.audioSource.clip = clip;
+		audioManager.audioSource.PlayOneShot(clip);
 	}
 }
