@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,11 +19,35 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 		currentState = startingState;
-        storyText.text = currentState.GetStateStory();
-    }
+		UpdateScreen();
+	}
 
     void Update()
     {
-        
+		ListenForInput();
     }
+
+	private void ListenForInput() {
+		if (Input.GetKeyDown(KeyCode.Alpha1)) {
+			UpdateState(0);
+		}
+
+		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+			UpdateState(1);
+		}
+
+		else if (Input.GetKeyDown(KeyCode.Alpha3)) {
+			UpdateState(2);
+		}
+	}
+
+	private void UpdateState(int index) {
+		var nextStates = currentState.GetNextStates();
+		currentState = nextStates[index];
+		UpdateScreen();
+	}
+
+	private void UpdateScreen() {
+		storyText.text = currentState.GetStateStory();
+	}
 }
