@@ -10,14 +10,15 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private TMP_Text storyText;
 
+	[SerializeField]
+	private State startingState;
+
+	private State currentState;
+
     void Start()
     {
-        storyText.text =	"Operation System v.042 loaded...\n" +
-							"User account confirmed...\n" +
-							"Full root access... GRANTED!\n" +
-							".......loading..............\n" +
-							"Dependency packages intalled...\n" +
-							"Link to IP address established...\n";
+		currentState = startingState;
+        storyText.text = currentState.GetStateStory();
     }
 
     void Update()

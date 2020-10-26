@@ -12,4 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'Operation System v.042 loaded...
+
+    User account confirmed...
+
+    Full
+    root access... GRANTED!
+
+    .......loading..............
+
+    Dependency packages
+    intalled...
+
+    Link to IP address established...
+
+
+    Choose option:
+
+    1.
+    Show IP connection status
+
+    2. Choose server action'

@@ -10,5 +10,9 @@ public class State : ScriptableObject
 	private string storyText;
 
 
+	public string GetStateStory() {
+		return storyText;
+	}
+
 
 }
