@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
+  m_Name: 03WashingMachine
+  m_EditorClassIdentifier: 
+  storyText: 'Pax looked in the washing machine. There was an odd sock but no rope.
+    Maybe he should have a sleep but where would be best, on the computer on a shoe?
+
+
+    1.
+    On a shoe
+
+    2. On a computer'
+  nextStates:
+  - {fileID: 11400000, guid: 03077996b5db243819caa4e18b3afec9, type: 2}
+  - {fileID: 11400000, guid: 3398373c71c25431e929d84c49d29e18, type: 2}

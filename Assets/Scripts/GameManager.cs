@@ -35,10 +35,6 @@ public class GameManager : MonoBehaviour
 		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
 			UpdateState(1);
 		}
-
-		else if (Input.GetKeyDown(KeyCode.Alpha3)) {
-			UpdateState(2);
-		}
 	}
 
 	private void UpdateState(int index) {

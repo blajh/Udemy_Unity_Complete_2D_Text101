@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
+  m_Name: 13Suitcase
+  m_EditorClassIdentifier: 
+  storyText: 'Yes, it was in the suitcase. Pax was very happy.
+
+
+    1. Start again?
+
+    2.
+    Finish now?
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: d55f98a229cc64fdfa45ec23aaa22e9f, type: 2}
+  - {fileID: 11400000, guid: 59adb1b9a506a46c18c3bb11350b632c, type: 2}

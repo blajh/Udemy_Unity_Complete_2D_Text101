@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
+  m_Name: 02Bowl
+  m_EditorClassIdentifier: 
+  storyText: "Pax hopped into the bowl. No rope here. He curled up and had a little
+    rest. \n\nAfter his rest he wondered what to do next. Maybe having a drink or
+    something to eat would help.\n\n1. Have a drink\n2. Have something to eat"
+  nextStates:
+  - {fileID: 11400000, guid: 60cfd91440b484b1580b5b3842b8d9da, type: 2}
+  - {fileID: 11400000, guid: dd00c604198e8421dbcbc04eea1a6006, type: 2}

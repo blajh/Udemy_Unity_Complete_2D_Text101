@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
+  m_Name: 01Start
+  m_EditorClassIdentifier: 
+  storyText: "Once upon a time there was a fluffy cat named Pax. Pax had a favourite
+    piece of yellow rope that he liked to play with. \n\nOne day he went to play
+    with his rope but it was gone. Where could it be?\n\nCould it be in the bowl
+    or the washing machine? \n\n1. Bowl\n2. Washing Machine\n"
+  nextStates:
+  - {fileID: 11400000, guid: 7b45a8403246842f290e7029d297cad1, type: 2}
+  - {fileID: 11400000, guid: 5f611075e9cd04b4e814ad1140d3acf2, type: 2}

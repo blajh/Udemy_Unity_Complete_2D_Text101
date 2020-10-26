@@ -10,6 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
-  m_Name: Actions
+  m_Name: 09Bottle
   m_EditorClassIdentifier: 
-  storyText: Server actions
+  storyText: "It wasn't in the plastic pottle so he carried on looking. \n\nWhere
+    should he look next?\n\n1. In the suitcase?\n2. In the plastic bags?"
+  nextStates:
+  - {fileID: 11400000, guid: 4696ee8c930f94f3089b7ad99816a238, type: 2}
+  - {fileID: 11400000, guid: 87e654c2fd3b9498cbb18594e62c134d, type: 2}
