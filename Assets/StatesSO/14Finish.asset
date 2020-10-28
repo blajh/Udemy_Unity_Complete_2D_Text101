@@ -12,11 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7361be16bb243b3ae5a52577d76e8a, type: 3}
   m_Name: 14Finish
   m_EditorClassIdentifier: 
-  storyText: "Note: No cats were harmed in the making of this presentation although
-    Pax may have been a little embarrassed. \n\nNo photos were staged, they were
-    all taken when Pax was going about his usual business - cats after all are naturally
-    curious.\n\nAnd the yellow rope was indeed his favourite toy.\n\nPax is a pedigree
-    cream British Shorthair.\n\nhttps://docs.google.com/presentation/d/1GloMd-69pLcEoDHUWWizyA-ogQaJHuqVIENXo8GgO4I/edit#slide=id.ga0d1327af_0_95\n"
+  storyText: 'Note: No cats were harmed in the making of this presentation although
+    Pax may have been a little embarrassed. No photos were staged, they were all
+    taken when Pax was going about his usual business - cats after all are naturally
+    curious.
+
+
+    And the yellow rope was indeed his favourite toy. Pax is a pedigree
+    cream British Shorthair.
+
+
+    https://docs.google.com/presentation/d/1GloMd-69pLcEoDHUWWizyA-ogQaJHuqVIENXo8GgO4I/edit#slide=id.ga0d1327af_0_95
+
+'
   nextStates:
   - {fileID: 11400000, guid: d55f98a229cc64fdfa45ec23aaa22e9f, type: 2}
   - {fileID: 11400000, guid: d55f98a229cc64fdfa45ec23aaa22e9f, type: 2}
