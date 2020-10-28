@@ -186,6 +186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 54027119570343926, guid: 118d794af50d44affb397ac6d1b6a89b, type: 3}
+    - {fileID: 114142728427468222, guid: 118d794af50d44affb397ac6d1b6a89b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 118d794af50d44affb397ac6d1b6a89b, type: 3}
 --- !u!1 &52762461
 GameObject:
@@ -859,7 +860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 611639627}
-  humm: {fileID: 8300000, guid: 0b1932d831d0e40d5aca850268f8da2a, type: 3}
   choiceClick: {fileID: 8300000, guid: 0b1932d831d0e40d5aca850268f8da2a, type: 3}
 --- !u!4 &1408766285
 Transform:
@@ -1252,8 +1252,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.8
-  m_fontSizeBase: 32.8
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

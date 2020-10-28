@@ -16,10 +16,12 @@ public class GameManager : MonoBehaviour
 	private State startingState;
 
 	private State currentState;
+	private State[] nextStates;
 
     void Start()
     {
 		currentState = startingState;
+		GetStates();
 		UpdateScreen();
 	}
 
@@ -29,17 +31,21 @@ public class GameManager : MonoBehaviour
     }
 
 	private void ListenForInput() {
-		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			UpdateState(0);
-		}
 
-		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			UpdateState(1);
+		for (int i = 0; i < nextStates.Length; i++) {
+
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i)) {
+				UpdateState(i);
+			}
 		}
 	}
 
+	private void GetStates() {
+		nextStates = currentState.GetNextStates();
+	}
+
 	private void UpdateState(int index) {
-		var nextStates = currentState.GetNextStates();
+		GetStates();
 		currentState = nextStates[index];
 		UpdateScreen();
 		PlayAudio(audioManager.choiceClick);

@@ -19,3 +19,4 @@ MonoBehaviour:
     cream British Shorthair.\n\nhttps://docs.google.com/presentation/d/1GloMd-69pLcEoDHUWWizyA-ogQaJHuqVIENXo8GgO4I/edit#slide=id.ga0d1327af_0_95\n"
   nextStates:
   - {fileID: 11400000, guid: d55f98a229cc64fdfa45ec23aaa22e9f, type: 2}
+  - {fileID: 11400000, guid: d55f98a229cc64fdfa45ec23aaa22e9f, type: 2}
